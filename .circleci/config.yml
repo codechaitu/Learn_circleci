@@ -8,8 +8,8 @@ jobs:
       - run:
           name: Check Scripts
           command: |
-            echo "hi yar"
-            ls
+            echo "hiell yar"
+            ls -ltr
 workflows:
   version: 2
   workflow:
